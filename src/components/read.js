@@ -2,6 +2,7 @@ import React from "react";
 import {Books} from './books';
 export class Read extends React.Component{
 
+    {//Books array - names and images}
     state = {
         books:[
             {
