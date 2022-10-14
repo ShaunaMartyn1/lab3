@@ -32,7 +32,7 @@ class App extends React.Component {
           </Nav>
         </Container>
       </Navbar>
-      <Routes>
+      <Routes> {//Headings in navbar}
         <Route path= '/' element={<Content></Content>}></Route>
         <Route path='/read' element={<Read></Read>}></Route>
         <Route path='/create' element={<Create></Create>}></Route>
