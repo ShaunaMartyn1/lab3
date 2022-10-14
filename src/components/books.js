@@ -5,6 +5,7 @@ export class Books extends React.Component{
     render(){
         return this .props.books.map(
             (book)=>{
+                 //book is a child of BookItem 
                 return <BookItem book = {book}> key ={book.isbn}</BookItem>
             }
         );
