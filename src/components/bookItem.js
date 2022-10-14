@@ -11,7 +11,7 @@ export class BookItem extends React.Component{
     <Card>
             <Card.Header >{this.props.book.title}</Card.Header>
       <Card.Body>
-      
+            {//add images from array}
         <img src = {this.props.book.thumbnailUrl}></img>
         <footer>
             {this.props.book.authors[0]}  
